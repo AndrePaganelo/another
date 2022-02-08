@@ -1,11 +1,12 @@
 require 'capybara/cucumber'
-
+require 'selenium-webdriver'
+require 'site_prism'
 
 #require 'capybara'
 #require 'capybara/dsl'
 #require 'capybara/rspec/matchers'
 
-require 'selenium-webdriver'
+
 
 #World(Capybara::DSL)            #deixando a dsl como global
 #World(Capybara::RSpecMatchers)  #deixando o rspecmatchers como global

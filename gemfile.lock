@@ -96,7 +96,7 @@ DEPENDENCIES
   cucumber
   rspec
   selenium-webdriver
-  site_prism (= 3.0)
+  site_prism (= 3.0.0)
 
 BUNDLED WITH
    2.3.4

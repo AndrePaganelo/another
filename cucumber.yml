@@ -1,0 +1,14 @@
+#cucumber em yml sempre vai buscar o comando default com os profiles que agente escolher 
+
+
+---      #notação para indicar que é um template
+
+#default: --profile pretty
+default: --profile progress -p homolog     #falo que quero que rode em homolog ou producao
+pretty: --format pretty                    #exibe os cenarios como padrão 
+progress: --format progress                #exibe pontinhos no seu terminal inves dos cenarios
+homolog: AMBIENTE=homolog   
+producao: AMBIENTE=producao
+
+
+# obs: para rodar no terminal, o comando fica  bundle exec cucumber

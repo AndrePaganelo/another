@@ -18,7 +18,7 @@ World(PageObjects) #inserido para funcionar a forma mais pratica de instanciar c
 
 Capybara.configure do |config|
     config.default_driver = :selenium_chrome
-   # config.app_host = 'https://automacaocombatista.herokuapp.com'
+   # config.app_host = 'https://automacaocombatista.herokuapp.com'   desabilitado 
      config.app_host = CONFIG['url_padrao']  
      config.default_max_wait_time = 5
 end

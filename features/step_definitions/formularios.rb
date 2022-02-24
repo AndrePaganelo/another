@@ -1,9 +1,9 @@
 Quando('eu faco cadastro') do
     visit '/users/new'
     
-    fill_in(id: 'user_name', with: 'Andre')                      #vai achar o campo que coloca-se nome e vai preencher com Andre Pagas
-    find('#user_lastname').set('Paganelo')                       #outra forma de achar e preencher
-    find('#user_email').send_keys('andre@qlq.com')                 #outra forma de achar e preencher
+    fill_in(id: 'user_name', with: 'Andres')                      #vai achar o campo que coloca-se nome e vai preencher com Andre Pagas
+    find('#user_lastname').set('Paganeloo')                       #outra forma de achar e preencher
+    find('#user_email').send_keys('andredeedae@qlq.com')                 #outra forma de achar e preencher
     fill_in(id: 'user_address', with: 'Rua 12')                     
     find('#user_university').set('Metodista')                       
     find('#user_profile').send_keys('Analista')   

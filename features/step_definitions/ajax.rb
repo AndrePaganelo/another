@@ -6,7 +6,7 @@ end
 
 
 Entao('verifico se apareceu') do
-    #@ajax.wait_for_mensagem
+    #@ajax.wait_for_mensagem                                        erro se habilitado
     expect(@ajax.mensagem.text).to eql 'Você Clicou no Botão!'
     sleep(4)
   end

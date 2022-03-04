@@ -5,6 +5,6 @@ module Helper
     caminho_arquivo = "results/screenshots/test_#{resultado}"
     foto = "#{caminho_arquivo}/#{nome_arquivo}.png"
     page.save_screenshot(foto)
-    #embed(foto, 'image/png', 'Clique aqui')  # adiciona a foto no meu arquivo de relatorio html gerado.mas se habilitado gera erro
+    embed(foto, 'image/png', 'Clique aqui')  # adiciona a foto no meu arquivo de relatorio html gerado.mas se habilitado gera erro
  end
 end

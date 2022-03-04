@@ -5,4 +5,4 @@ module Helper
       page.save_screenshot(foto)
       #embed(foto, 'image/png', 'Clique aqui') 
    end
-  end
+  end 

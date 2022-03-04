@@ -9,6 +9,10 @@ pretty: --format pretty                    #exibe os cenarios como padrão
 progress: --format progress                #exibe pontinhos no seu terminal inves dos cenarios
 homolog: AMBIENTE=homolog   
 producao: AMBIENTE=producao
-html: --format html --out=reports/relatorio.html   # criando mais um profiles, defino que quero um relatorio dos testes em html e crio a pasta reports
+html: --format html --out=report/relatorio.html
+#html: --format html --out=reports/relatorio.html   # criando mais um profiles, defino que quero um relatorio dos testes em html e crio a pasta reports
+
+
+
 
 # obs: para rodar no terminal, o comando fica  bundle exec cucumber

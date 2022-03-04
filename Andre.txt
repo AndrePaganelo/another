@@ -1,3 +1,0 @@
-Subindo a rlse 0.0.1
-Correção do BugFix
-Atualizando develop 
